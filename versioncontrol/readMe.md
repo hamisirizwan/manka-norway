@@ -22,3 +22,17 @@ git add <filename> .
 <!-- commiting changes -->
 
 git commit -m "message"
+
+<!-- local vs remote -->
+
+create an account on github -
+creating a repo
+access - public or private
+connect local - remote
+
+<!-- cloning -->
+git clone <repo>
+
+<!-- fetching -->
+
+git fetch <origin>
