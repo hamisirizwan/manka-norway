@@ -15,4 +15,10 @@ git status - the tracked files , the files with changes
 
 this file allows you to basically restrict git from tracking such files or folders
 
+<!-- staging -->
 
+git add <filename> .
+
+<!-- commiting changes -->
+
+git commit -m "message"
