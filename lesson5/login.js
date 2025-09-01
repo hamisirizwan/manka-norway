@@ -23,3 +23,5 @@ delete user.password
 user.phoneNumber = "*******"
 
 console.log(user)
+
+// Object desctruction
