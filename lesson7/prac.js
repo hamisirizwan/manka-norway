@@ -23,6 +23,11 @@ const school = {
       name: "Peter",
       Grade: 55,
     },
+
+        {
+      name: "Jane",
+      Grade: 1,
+    },
   ],
 };
 
@@ -47,11 +52,25 @@ function renameSchool(newName) {
 
 // create a function that will console the total grade of the students in the school
 
+
+// creating a function
 function totalGrade() {
+
+  // initializing the total to 0
   let total = 0;
+
+  // looping through each student of the school object
   for (let i = 0; i < school.students.length; i++) {
-    totalGrade = total + school.students.length;
+    // for every student in the school object
+    const currentStudent = school.students[i]
+    
+    total = total + currentStudent.Grade;
+
   }
+
   console.log(total)
 }
+
+
 totalGrade();
+
