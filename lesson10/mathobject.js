@@ -30,6 +30,6 @@ mathObject.multiply();
 // LocalStorage - localStorage.get() , localstroge.set()
 
 // REACT - react.useState() , react.useEffect()
-// NODE  - app.router()
+// NODE  - app.router
 // array.map() , array.filter() , array.find() , array.reduce() , array.forEach()
 // string.toUpperCase , string.substring() , string.concat , string.split() , string.strip()

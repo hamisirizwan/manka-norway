@@ -1,0 +1,1 @@
+// in a certain country identified by name there are a certain number of tribes - each tribe has a population , create a object method to get the total population of that country
