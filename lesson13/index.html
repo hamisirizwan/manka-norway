@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+
+    </div>
+
+    <script>
+
+       const students = ["James", "Caleb", "Maina", "Swaleh"]
+
+
+const newElement = document.createElement("ol")
+// newElement.innerText = "hello"
+
+const containerElement = document.getElementById("container")
+
+containerElement.appendChild(newElement)
+
+students.forEach((student)=>{
+   const liEl = document.createElement("li")
+
+   liEl.innerText = student
+
+   newElement.appendChild(liEl)
+
+})
+    </script>
+
+</body>
+</html>
