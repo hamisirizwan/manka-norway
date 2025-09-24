@@ -1,0 +1,18 @@
+Array methods
+these are build in methods that allow us to perform quick operations on arrays
+
+common array methods
+
+1. foreach
+this allows us to loop through an array
+
+example
+
+const students = ["james" , "john"]
+
+students.forEach((student)=>{
+  console.log("student")
+})
+
+
+2. 
