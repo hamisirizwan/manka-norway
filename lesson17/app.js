@@ -2,14 +2,14 @@
 
 // select an element
 
-const bodyEl = document.querySelector("body")
+const bodyEl = document.querySelector("body")  // selects element from the dom
 
-const colorInput = document.getElementById("colorInput")
-const addColorButton = document.getElementById("addColor")
+const colorInput = document.getElementById("colorInput")  // select
+const addColorButton = document.getElementById("addColor")  // selection
 
 const colorsArr = [
     "green" , "blue" ,"red"
-]
+]  // an array
 
 
 addColorButton.addEventListener("click" , ()=>{
@@ -23,15 +23,18 @@ addColorButton.addEventListener("click" , ()=>{
 
     buttonParent.innerHTML = ""
 
-    renderButtons()
 
     colorInput.value = ""
 })
+
+// event listner
 // "purple","orange", "aqua" ,"black" , "yellow"
 
 
-function renderButtons(){
-    colorsArr.forEach((color)=>{
+function renderButtons() {
+
+    console.log("hello world")
+   colorsArr.forEach((color)=>{
         // create a button
     
         const createButton = document.createElement("button")  // this creates a button element
@@ -56,7 +59,9 @@ function renderButtons(){
     })
     
     })
+ 
 }
+
 
 renderButtons()
 
