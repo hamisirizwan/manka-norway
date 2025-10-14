@@ -1,5 +1,5 @@
 // create a football league with country , teams  each team some players. create methods to get the total number of players in the league
-
+/* 
 const league = {
   country: "England",
   teams: [
@@ -24,4 +24,17 @@ const league = {
 };
 
 
-league.showTotalPlayers()
+league.showTotalPlayers() */
+
+
+
+const students = [
+  "Abdirahman Ahmed",
+  "Rizwan Boss",
+  "Peter mugisha",
+  "julie irenge",
+  "Sofia Ali",
+  "John Mussi"
+
+];
+
