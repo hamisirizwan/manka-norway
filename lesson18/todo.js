@@ -21,7 +21,7 @@ btn.addEventListener("click",()=>{
 
     container.innerHTML = ""
      renderTodos()
-    userInput.value = ""
+    
 })
 
 function renderTodos(){
