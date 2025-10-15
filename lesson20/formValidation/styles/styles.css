@@ -7,6 +7,10 @@ body{
  background-color: rgb(130, 147, 171);
 }
 
+div{
+  padding: 0px 40px;
+}
+
 h1{
     font-size: 40px;
     margin: 40px;
@@ -44,3 +48,16 @@ input[type=submit] {
 
 input[type=submit]:hover {
   background-color: #45a049}
+
+  input[type=submit]:disabled {
+  background-color: gray}
+
+
+  .error {
+     color: red;
+  }
+
+    .success{
+     color: green;
+  }
+
