@@ -4,26 +4,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/lesson20/formValidation/styles/styles.css">
+    <link rel="stylesheet" href="./styles/styles.css">
     <title>Document</title>
 </head>
 
 <body>
     <!-- create a form with 2 inputs - username and password inputs -->
      
+    <div>
     <h1>Application form</h1>
     <p>Please complete and submit the form below before applying for any vacant positions in our company.</p>
       
-    <form action="">
+    <form id="form">
+        <p class="error" id="errorBox"></p>
+        <p class="success" id="successBox"></p>
         <label>First name</label><br>
         <input type="text" id="fname" placeholder="first name"><br>
+        <small id="firstValue" style="color: red;"></small>
         <label>Last name:</label><br>
         <input type="text" id="lname" placeholder="last name"><br>
-        <input type="submit" value="Submit">
-
+        <small id="secondValue" style="color: red;"></small>
+        <input id="submitBtn" type="submit" value="Submit" disabled>
     </form>
+    </div>
+   
 
-
+    <script src="./js/main.js">
+        </script>
 </body>
 
 </html>
