@@ -1,3 +1,4 @@
+
 // js will come here
 
 const firstNameInput = document.getElementById("fname")
@@ -51,3 +52,9 @@ secondNameInput.addEventListener("input", ()=>{
     }
      
 })
+
+// create a form with two inputs where when the users enters values into the inputs and clicks the button, it will add the two values and display the sum.
+// Hint: validate the 2 inputs and make sure the user has entered valid numbers:
+
+
+
